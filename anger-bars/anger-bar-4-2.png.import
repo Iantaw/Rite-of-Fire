@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cus6jkfmnbuxu"
-path="res://.godot/imported/anger-bar-1-2.png-69f2b8dcaba7aa645b2c19b0222f9098.ctex"
+uid="uid://bnh825jy1n8uh"
+path="res://.godot/imported/anger-bar-4-2.png-9a3dc7b66893aab5b01858cbd688033a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://anger-bar-1-2.png"
-dest_files=["res://.godot/imported/anger-bar-1-2.png-69f2b8dcaba7aa645b2c19b0222f9098.ctex"]
+source_file="res://anger-bars/anger-bar-4-2.png"
+dest_files=["res://.godot/imported/anger-bar-4-2.png-9a3dc7b66893aab5b01858cbd688033a.ctex"]
 
 [params]
 
