@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ub7iihpnnc57"
-path="res://.godot/imported/Character_1_Run_reversed.png-70a1d3da3105983ce1dcff19dedcff96.ctex"
+uid="uid://drdmhyfmveewu"
+path="res://.godot/imported/Hills.png-af97e7d1821314016e8cd9534ee7a1a4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Character_1_Run_reversed.png"
-dest_files=["res://.godot/imported/Character_1_Run_reversed.png-70a1d3da3105983ce1dcff19dedcff96.ctex"]
+source_file="res://Map/Hills.png"
+dest_files=["res://.godot/imported/Hills.png-af97e7d1821314016e8cd9534ee7a1a4.ctex"]
 
 [params]
 
