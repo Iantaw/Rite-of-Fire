@@ -1,0 +1,165 @@
+[gd_scene load_steps=21 format=3 uid="uid://51m55usao4ur"]
+
+[ext_resource type="Script" uid="uid://d15eo3k5fh2ie" path="res://Characters/Scripts/drag-and-drop.gd" id="1_xxcha"]
+[ext_resource type="Texture2D" uid="uid://k2sa4te0203i" path="res://Characters/Textures/Human-Worker-Red.png" id="2_kh24r"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kek77"]
+atlas = ExtResource("2_kh24r")
+region = Rect2(32, 64, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4c57u"]
+atlas = ExtResource("2_kh24r")
+region = Rect2(64, 64, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_efxa6"]
+atlas = ExtResource("2_kh24r")
+region = Rect2(96, 64, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dg77c"]
+atlas = ExtResource("2_kh24r")
+region = Rect2(128, 64, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ycdy4"]
+atlas = ExtResource("2_kh24r")
+region = Rect2(32, 128, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w48qg"]
+atlas = ExtResource("2_kh24r")
+region = Rect2(64, 128, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vivmo"]
+atlas = ExtResource("2_kh24r")
+region = Rect2(96, 128, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2cqfq"]
+atlas = ExtResource("2_kh24r")
+region = Rect2(128, 128, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yaehf"]
+atlas = ExtResource("2_kh24r")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_074og"]
+atlas = ExtResource("2_kh24r")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cegan"]
+atlas = ExtResource("2_kh24r")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_82xsv"]
+atlas = ExtResource("2_kh24r")
+region = Rect2(128, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_getpj"]
+atlas = ExtResource("2_kh24r")
+region = Rect2(32, 192, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ryguw"]
+atlas = ExtResource("2_kh24r")
+region = Rect2(64, 192, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d13ii"]
+atlas = ExtResource("2_kh24r")
+region = Rect2(96, 192, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1u8w0"]
+atlas = ExtResource("2_kh24r")
+region = Rect2(128, 192, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ul7y6"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kek77")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4c57u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_efxa6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dg77c")
+}],
+"loop": true,
+"name": &"walk-e",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ycdy4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w48qg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vivmo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2cqfq")
+}],
+"loop": true,
+"name": &"walk-n",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yaehf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_074og")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cegan")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_82xsv")
+}],
+"loop": true,
+"name": &"walk-s",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_getpj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ryguw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d13ii")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1u8w0")
+}],
+"loop": true,
+"name": &"walk-w",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bc6q4"]
+size = Vector2(9.853712, 5.4786854)
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+process_mode = 3
+position = Vector2(2729, -200.99976)
+rotation = 3.1415927
+scale = Vector2(25227.1, -22.200651)
+input_pickable = true
+script = ExtResource("1_xxcha")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+z_index = 2
+position = Vector2(0.015102805, 65.98904)
+scale = Vector2(-0.0007103507, 0.67178464)
+sprite_frames = SubResource("SpriteFrames_ul7y6")
+animation = &"walk-w"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+z_index = 2
+position = Vector2(0.015077025, 65.73065)
+scale = Vector2(0.0009949632, 2.2977242)
+shape = SubResource("RectangleShape2D_bc6q4")
+
+[connection signal="input_event" from="." to="." method="_on_CharacterBody2D_input_event"]
