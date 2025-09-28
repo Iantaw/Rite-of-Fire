@@ -1,2 +1,4 @@
 res://main.tscn
-res://player.gd
+res://npc.gd
+res://Characters/Scripts/player.gd
+res://grabbing-label.gd
