@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dggr1xg2f2syq"
-path="res://.godot/imported/volcano-edited - Copy.png-938c2cf9ea2ad57a155d346e09d6b7c2.ctex"
+uid="uid://dr7jyf78q71rr"
+path="res://.godot/imported/volcano-edited - Copy (1).png-8ee6e75e2f3a72f6dfcdb06f32b68e8a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Map/volcano-edited - Copy.png"
-dest_files=["res://.godot/imported/volcano-edited - Copy.png-938c2cf9ea2ad57a155d346e09d6b7c2.ctex"]
+source_file="res://Map/volcano-edited - Copy (1).png"
+dest_files=["res://.godot/imported/volcano-edited - Copy (1).png-8ee6e75e2f3a72f6dfcdb06f32b68e8a.ctex"]
 
 [params]
 
