@@ -1,2 +1,4 @@
+res://Characters/Scripts/drag-and-drop.gd
+res://Map/deathzone.gd
+res://Map/main_scene.gd
 res://main.tscn
-res://player.gd

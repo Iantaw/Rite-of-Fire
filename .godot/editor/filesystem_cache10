@@ -1,16 +1,34 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1759002868
-Character_1_Run.png::CompressedTexture2D::3558782936532525349::1759002799::1759002947::1::::<><><>0<>0<>b0bb939689bd343c08584b7175dece46<>res://.godot/imported/Character_1_Run.png-25d1e11eb819625fdf03d0a81d690a5d.ctex::
-Character_1_Run_reversed.png::CompressedTexture2D::1407798912334323580::1759002799::1759002947::1::::<><><>0<>0<>2423a3844ad0e6043663a0a7c37d08e3<>res://.godot/imported/Character_1_Run_reversed.png-70a1d3da3105983ce1dcff19dedcff96.ctex::
-character_body_2d.gd::GDScript::5613716169944070561::1759002799::0::1::::<>CharacterBody2D<><>0<>0<><>::
-Grass.png::CompressedTexture2D::6147864036328507012::1759002799::1759002947::1::::<><><>0<>0<>d54b6f17c10c6592c73122cf1d3ce847<>res://.godot/imported/Grass.png-ff92a3c9a7a270cd183ab32eca376733.ctex::
-Hills.png::CompressedTexture2D::8359407899516441152::1759002799::1759002947::1::::<><><>0<>0<>0ab9b1df03607dbc9be50a6f3f73a717<>res://.godot/imported/Hills.png-65c688a786c2cba54d00253deaf3b7af.ctex::
-main.tscn::PackedScene::6558656457377341516::1759002799::0::1::::<><><>0<>0<><>::uid://ctucommsb7fmi::::res://Grass.png<>uid://drdmhyfmveewu::::res://Hills.png<>uid://b1ngvav1jco5p::::res://Water.png<>uid://ca17igll8ip5y::::res://Tilled_Dirt_Wide_v2.png<>uid://dte376nyminvn::::res://tilemap_packed.png<>uid://cdhojn3d0k06w::::res://volcano-removebg.png<>uid://bxsrdmjve0uqt::::res://stone.png<>uid://d1vc08qsmgsy3::::res://Woods.png<>uid://bqx5vuc3c16q0::::res://Character_1_Run.png<>uid://cuaook1ps5lyd::::res://player.gd<>uid://ub7iihpnnc57::::res://Character_1_Run_reversed.png
-player.gd::GDScript::6177493845265443151::1759002799::0::1::::<>CharacterBody2D<><>0<>0<><>::
-stone.png::CompressedTexture2D::4038961078343603435::1759002799::1759002947::1::::<><><>0<>0<>58e673f51608de4fed3df7a4f076bbff<>res://.godot/imported/stone.png-083619ed9cb60da6213c6ca04d200509.ctex::
-tilemap_packed.png::CompressedTexture2D::8502866461833703499::1759002799::1759002947::1::::<><><>0<>0<>a06b565645dea4a964ef68a24732de7c<>res://.godot/imported/tilemap_packed.png-7b301e6705a57389d2cd02d385b33920.ctex::
-Tilled_Dirt_Wide_v2.png::CompressedTexture2D::4828472751788693312::1759002799::1759002947::1::::<><><>0<>0<>01cf20012b3c93c86d21ac1108755f36<>res://.godot/imported/Tilled_Dirt_Wide_v2.png-9b1c4025db8e9011fbef94ade178282e.ctex::
-volcano-removebg.png::CompressedTexture2D::4998725378850805464::1759002799::1759002948::1::::<><><>0<>0<>7dd31f925b7e54db4d19b075847c0a9f<>res://.godot/imported/volcano-removebg.png-99a3d8cfd73dabb3a836f0dccd9b39cf.ctex::
-Water.png::CompressedTexture2D::4238569366347658339::1759002799::1759002947::1::::<><><>0<>0<>6951fca5e4ee4749f1b1a2fbfbb81843<>res://.godot/imported/Water.png-6c5556ba229a3287e71c86c2c782d623.ctex::
-Woods.png::CompressedTexture2D::9027691756158112324::1759002799::1759002947::1::::<><><>0<>0<>5cd467d77dcdbc1eb7b220e58c3048fc<>res://.godot/imported/Woods.png-64c07b3253955ef1a12ab26626a73d21.ctex::
-::res://rite-of-fire/::1759002868
+::res://::1759087245
+houses.png::CompressedTexture2D::4475713914839707211::1759087245::1759087249::1::::<><><>0<>0<>a6dd198b0c6c8afa4779d4a49c53668e<>res://.godot/imported/houses.png-8ba12e1cdcebef54af70c323b2adc250.ctex::
+icon.svg::CompressedTexture2D::436273359435909384::1759087245::1759087249::1::::<><><>0<>0<>a44ad9e68bf18394cf8e9165d7b59e84<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+Jeremy Blake - Powerup! ♫ NO COPYRIGHT 8-bit Music.mp3::AudioStreamMP3::5232289116787565260::1759087245::1759087248::1::::<><><>0<>0<>561fd43ed3923b7ae9d5af4409cf1408<>res://.godot/imported/Jeremy Blake - Powerup! ♫ NO COPYRIGHT 8-bit Music.mp3-b12f466f991f6cf49fb1979bd8d265d1.mp3str::
+main.tscn::PackedScene::6558656457377341516::1759087245::0::1::::<><><>0<>0<><>::uid://ctucommsb7fmi::::res://Map/Grass.png<>uid://drdmhyfmveewu::::res://Map/Hills.png<>uid://b1ngvav1jco5p::::res://Map/Water.png<>uid://ca17igll8ip5y::::res://Map/Tilled_Dirt_Wide_v2.png<>uid://dte376nyminvn::::res://Map/tilemap_packed.png<>uid://cdhojn3d0k06w::::res://Map/volcano-removebg.png<>uid://bxsrdmjve0uqt::::res://Map/stone.png<>uid://d1vc08qsmgsy3::::res://Map/Woods.png<>uid://bqx5vuc3c16q0::::res://Characters/Textures/Character_1_Run.png<>uid://cuaook1ps5lyd::::res://Characters/Scripts/player.gd<>uid://ub7iihpnnc57::::res://Characters/Textures/Character_1_Run_reversed.png
+path blood.png::CompressedTexture2D::670563529991624423::1759087245::1759087249::1::::<><><>0<>0<>5929801f622a7ae8a718d5ae3ffcde2d<>res://.godot/imported/path blood.png-ed2331a22137e1397600589c1c07766b.ctex::
+path dirt2.png::CompressedTexture2D::1609279098481953404::1759087245::1759087249::1::::<><><>0<>0<>9e276c820595651090cc001b793010e7<>res://.godot/imported/path dirt2.png-a2408d407696b0593228639b53aea0c1.ctex::
+path dirt.png::CompressedTexture2D::1344483490040611342::1759087245::1759087249::1::::<><><>0<>0<>253c6f9ec538c779cd4accdf9235b5ca<>res://.godot/imported/path dirt.png-93a1cc4079e807f41620958b56d22b7f.ctex::
+path water.png::CompressedTexture2D::3454124214792003370::1759087245::1759087249::1::::<><><>0<>0<>b9d3e607003410f0b0dfe1c091a94dad<>res://.godot/imported/path water.png-287a51069e8fe6971e0a215ea85b2b5d.ctex::
+spritesheet(23).png::CompressedTexture2D::7958767389594351622::1759087245::1759087249::1::::<><><>0<>0<>7a707d61c67c88a9788d953b2354922b<>res://.godot/imported/spritesheet(23).png-a38525443874aca4a5cca2039af0ae8d.ctex::
+spritesheet(24).png::CompressedTexture2D::3632826910585193277::1759087245::1759087249::1::::<><><>0<>0<>e78eae3b65a3dc2e6a00773716a36203<>res://.godot/imported/spritesheet(24).png-3e691bb035d5cf9b560f4828aeeee1e6.ctex::
+::res://anger-bars/::1759078670
+::res://Characters/::1759015174
+::res://Characters/Scripts/::1759087244
+drag-and-drop.gd::GDScript::-1::1759087244::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://Characters/Textures/::1759086361
+Character_1_Run.png::CompressedTexture2D::3558782936532525349::1759078671::1759078671::1::::<><><>0<>0<>ee71336cb97851328ea73e671af42659<>res://.godot/imported/Character_1_Run.png-ca563b3203c33298d7665683e2529c15.ctex::
+Character_1_Run_reversed.png::CompressedTexture2D::1407798912334323580::1759078671::1759078671::1::::<><><>0<>0<>162eef28aec490462f395d159c1d9e69<>res://.godot/imported/Character_1_Run_reversed.png-7bfcf57f9a974e672e016f76ae018207.ctex::
+Human-Worker-Red.png::CompressedTexture2D::758721094354413388::1759086098::1759086361::1::::<><><>0<>0<>c9cfbd1bde4d4d07ff14e1de1b638223<>res://.godot/imported/Human-Worker-Red.png-91eee8ab694b635dc8fb59d8affbf737.ctex::
+::res://health-bars/::1759078670
+::res://Map/::1759087245
+deathzone.gd::GDScript::-1::1759087245::0::1::::<>Area2D<><>0<>0<><>::
+Grass.png::CompressedTexture2D::6147864036328507012::1759078671::1759078671::1::::<><><>0<>0<>97a10b349160ae2b65eb33afa926709f<>res://.godot/imported/Grass.png-34cd958f9b7b4cee223f44abc77f48ad.ctex::
+Hills.png::CompressedTexture2D::8359407899516441152::1759078671::1759078671::1::::<><><>0<>0<>c796bf0da0c35e89f0afddab7ec33854<>res://.godot/imported/Hills.png-af97e7d1821314016e8cd9534ee7a1a4.ctex::
+main_scene.gd::GDScript::-1::1759087245::0::1::::<>Node<><>0<>0<><>::
+stone.png::CompressedTexture2D::4038961078343603435::1759078671::1759078671::1::::<><><>0<>0<>c576d51ab715ecb336cd65cde6d00658<>res://.godot/imported/stone.png-2d6b720663b5601b77bf28fe543f9791.ctex::
+tilemap_packed.png::CompressedTexture2D::8502866461833703499::1759078671::1759078671::1::::<><><>0<>0<>624a268bf119e5a438dce2b2670c3d85<>res://.godot/imported/tilemap_packed.png-afb42d7028048aeab118ffef4f48319a.ctex::
+Tilled_Dirt_Wide_v2.png::CompressedTexture2D::4828472751788693312::1759078671::1759078671::1::::<><><>0<>0<>0002d1aa64ccf8378e8b406a6c1858f5<>res://.godot/imported/Tilled_Dirt_Wide_v2.png-556d1c597312c74576dcdaaa412f7c88.ctex::
+volcano-removebg.png::CompressedTexture2D::4998725378850805464::1759078671::1759078671::1::::<><><>0<>0<>00de49421ed2f44c27f752e37c0b6662<>res://.godot/imported/volcano-removebg.png-31a7c13204cce32c84aaa98ca4049f65.ctex::
+Water.png::CompressedTexture2D::4238569366347658339::1759078671::1759078671::1::::<><><>0<>0<>a8f5a8030675fac65e4abdbcb761369e<>res://.godot/imported/Water.png-da98e4466be6b77c3bb5a22603ee840b.ctex::
+Woods.png::CompressedTexture2D::9027691756158112324::1759078671::1759078671::1::::<><><>0<>0<>c46815b81c9ce515f334cae2bd50f472<>res://.godot/imported/Woods.png-0621eddb76eb82822913fcbde198595b.ctex::
+::res://rite-of-fire/::1759087245
+houses.png::CompressedTexture2D::4563743205297014815::1759087245::1759087249::1::::<><><>0<>0<>1b1cbc016add82bb21512a40b86059af<>res://.godot/imported/houses.png-667ecd7c3dae856aa7daef12c361ed9a.ctex::
