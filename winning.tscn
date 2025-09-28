@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://bks4vej7m8xxi"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_avms1"]
+font_size = 150
+
+[node name="Node" type="Node"]
+
+[node name="Label" type="Label" parent="."]
+offset_left = 185.0
+offset_top = 186.0
+offset_right = 971.0
+offset_bottom = 391.0
+text = "You Died :/"
+label_settings = SubResource("LabelSettings_avms1")

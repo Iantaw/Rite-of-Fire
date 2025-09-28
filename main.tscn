@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 [gd_scene load_steps=42 format=4 uid="uid://c0pcd4l1iel85"]
+=======
+[gd_scene load_steps=45 format=4 uid="uid://c0pcd4l1iel85"]
+>>>>>>> Stashed changes
 
 [ext_resource type="Texture2D" uid="uid://ctucommsb7fmi" path="res://Map/Grass.png" id="1_1bvp3"]
 [ext_resource type="Script" uid="uid://dtyxj5ed5k0at" path="res://Map/main_scene.gd" id="1_dg77c"]
@@ -12,6 +16,12 @@
 [ext_resource type="Script" uid="uid://d15eo3k5fh2ie" path="res://Characters/Scripts/drag-and-drop.gd" id="9_4c57u"]
 [ext_resource type="Script" uid="uid://elgxu65dwonh" path="res://Map/deathzone.gd" id="11_efxa6"]
 [ext_resource type="Texture2D" uid="uid://k2sa4te0203i" path="res://Characters/Textures/Human-Worker-Red.png" id="12_dg77c"]
+<<<<<<< Updated upstream
+=======
+[ext_resource type="Script" uid="uid://2rsnmc4ohad8" path="res://Map/volcano_zone.gd" id="12_ycdy4"]
+[ext_resource type="Script" uid="uid://devo3syiva6ob" path="res://Map/sea_zone.gd" id="13_w48qg"]
+[ext_resource type="AudioStream" uid="uid://byj7vpigysr0c" path="res://Map/Jeremy Blake - Powerup! ♫ NO COPYRIGHT 8-bit Music.mp3" id="14_w48qg"]
+>>>>>>> Stashed changes
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5vw27"]
 texture = ExtResource("1_1bvp3")
@@ -865,6 +875,9 @@ radius = 9.382947
 [sub_resource type="LabelSettings" id="LabelSettings_dg77c"]
 font_size = 36
 
+[sub_resource type="LabelSettings" id="LabelSettings_ycdy4"]
+font_size = 40
+
 [node name="Node" type="Node"]
 script = ExtResource("1_dg77c")
 
@@ -926,11 +939,49 @@ scale = Vector2(130.3372, 275.75177)
 
 [node name="ScoreLabel" type="Label" parent="CanvasGroup"]
 z_index = 2
-offset_left = -49.61746
-offset_top = -11.902009
-offset_right = 23.382542
-offset_bottom = 38.097992
+offset_left = -60.404858
+offset_top = -9.46141
+offset_right = 12.595142
+offset_bottom = 40.53859
 scale = Vector2(0.11447419, 0.053748515)
 label_settings = SubResource("LabelSettings_dg77c")
 
+<<<<<<< Updated upstream
+=======
+[node name="TimeLabel" type="Label" parent="CanvasGroup"]
+z_index = 2
+offset_left = -27.620663
+offset_top = -9.407011
+offset_right = 53.379337
+offset_bottom = 45.592987
+scale = Vector2(0.07525914, 0.035543777)
+label_settings = SubResource("LabelSettings_ycdy4")
+horizontal_alignment = 1
+
+[node name="SeaZone" type="Area2D" parent="."]
+script = ExtResource("13_w48qg")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="SeaZone"]
+polygon = PackedVector2Array(8428, -3090, 8421, 3377, -3100, 3380, -3093, -3097, 3092, -3108, 3062, -2530, 1659, -2518, 1657, -2400, 661, -2404, 671, -2273, 254, -2267, 254, -2147, -28, -2137, -30, -2008, -308, -2006, -305, -1614, -450, -1614, -447, -1352, -870, -1347, -867, -960, -1152, -955, -1149, -437, -1289, -430, -1291, -173, -1432, -172, -1430, 485, -1148, 485, -1148, 876, -870, 878, -868, 1005, -587, 1011, -590, 1532, -311, 1537, -309, 1659, -175, 1664, -170, 1798, 118, 1798, 113, 2195, 528, 2185, 526, 2442, 1092, 2449, 1096, 2190, 1518, 2185, 1516, 2440, 1792, 2442, 1787, 2706, 2646, 2713, 2641, 2843, 3341, 2836, 3336, 2706, 3902, 2709, 3905, 2584, 4032, 2581, 4039, 2444, 4461, 2452, 4463, 2320, 4610, 2317, 4598, 2185, 4735, 2183, 4746, 2065, 5161, 2053, 5161, 1926, 5312, 1923, 5305, 1666, 5591, 1662, 5586, 1011, 5720, 1008, 5727, 354, 5856, 349, 5860, 90, 5727, 90, 5724, -561, 5578, -561, 5586, -1209, 5436, -1213, 5444, -1869, 5319, -1861, 5311, -2132, 4450, -2145, 4458, -2245, 4049, -2262, 4035, -2396, 3899, -2399, 3900, -2524, 3063, -2530, 3092, -3108)
+
+[node name="Marker2D3" type="Marker2D" parent="." groups=["spawn_points"]]
+position = Vector2(1923, 1364)
+
+[node name="Marker2D5" type="Marker2D" parent="." groups=["spawn_points"]]
+position = Vector2(4386, 297)
+
+[node name="Marker2D4" type="Marker2D" parent="." groups=["spawn_points"]]
+position = Vector2(3438, -1611)
+
+[node name="Marker2D2" type="Marker2D" parent="." groups=["spawn_points"]]
+position = Vector2(777, -949)
+
+[node name="Marker2D" type="Marker2D" parent="." groups=["spawn_points"]]
+position = Vector2(37, 758)
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("14_w48qg")
+autoplay = true
+
+>>>>>>> Stashed changes
 [connection signal="input_event" from="CharacterBody2D" to="CharacterBody2D" method="_on_CharacterBody2D_input_event"]
